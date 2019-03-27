@@ -1,0 +1,19 @@
+createdAt: "2019-03-27T01:25:45.844Z"
+updatedAt: "2019-03-27T01:29:00.326Z"
+type: "MARKDOWN_NOTE"
+folder: "9920aa4bef7588333d0b"
+title: "Windows Shortcuts"
+tags: []
+content: '''
+  ## Windows Shortcuts
+  
+  | Shortcut      | Action        |
+  | ------------- |:-------------:|
+  | Win + Ctrl + Shift + B   | Restart graphics drivers      |
+  | Win + Shift + Left/Right | Move window to next/previous monitor      |
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
