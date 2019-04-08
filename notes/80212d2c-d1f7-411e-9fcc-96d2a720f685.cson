@@ -1,5 +1,5 @@
 createdAt: "2019-04-02T21:07:11.496Z"
-updatedAt: "2019-04-03T01:55:14.590Z"
+updatedAt: "2019-04-05T04:53:32.808Z"
 type: "MARKDOWN_NOTE"
 folder: "9920aa4bef7588333d0b"
 title: "Square Interview"
@@ -11,7 +11,14 @@ content: '''
   - [St. Louis Startup City](https://www.reddit.com/r/StLouis/comments/2bphfr/do_you_really_really_want_st_louis_to_become/)
   - [WUSTL Degree](https://cse.wustl.edu/undergraduate/programs/Pages/bs-in-computer-engineering.aspx)
   - [Square Meetup](https://www.meetup.com/stlruby/events/bfnddqyzgblb/)
+  - Masters Degree in Machine Learning
+  - [What about Data Science?](https://www.reddit.com/r/cscareerquestions/comments/b9cloc/is_the_data_science_hype_train_worth_the_ride_or/)
+  "Focus on domain knowledge and expertise over the degree."
+  "MIT's president put it very well when he said the world is in need of "bilinguals": people who can work with data and apply it with domain expertise."
+  
 '''
-linesHighlighted: []
+linesHighlighted: [
+  5
+]
 isStarred: false
 isTrashed: false

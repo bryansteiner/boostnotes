@@ -1,0 +1,115 @@
+createdAt: "2019-04-05T04:52:52.057Z"
+updatedAt: "2019-04-07T02:19:05.999Z"
+type: "MARKDOWN_NOTE"
+folder: "9920aa4bef7588333d0b"
+title: "Django Setup"
+tags: [
+  "django"
+  "conda"
+]
+content: '''
+  ## Django Setup
+  
+  Let's setup a virtual environment using Conda and download django to the virtual environment:
+  ```
+  λ conda create --name djangodev django
+  Collecting package metadata: done
+  Solving environment: done
+  
+  ## Package Plan ##
+  
+    environment location: C:\\Users\\stein\\.conda\\envs\\djangodev
+  
+    added / updated specs:
+      - django
+  
+  
+  The following packages will be downloaded:
+  
+      package                    |            build
+      ---------------------------|-----------------
+      ca-certificates-2019.1.23  |                0         158 KB
+      certifi-2019.3.9           |           py37_0         155 KB
+      django-2.1.7               |           py37_0         4.4 MB
+      openssl-1.1.1b             |       he774522_1         5.7 MB
+      pip-19.0.3                 |           py37_0         1.8 MB
+      python-3.7.3               |       h8c8aaf0_0        17.8 MB
+      pytz-2018.9                |           py37_0         264 KB
+      setuptools-40.8.0          |           py37_0         663 KB
+      sqlite-3.27.2              |       he774522_0         941 KB
+      wheel-0.33.1               |           py37_0          57 KB
+      ------------------------------------------------------------
+                                             Total:        31.9 MB
+  
+  The following NEW packages will be INSTALLED:
+  
+    ca-certificates    pkgs/main/win-64::ca-certificates-2019.1.23-0
+    certifi            pkgs/main/win-64::certifi-2019.3.9-py37_0
+    django             pkgs/main/win-64::django-2.1.7-py37_0
+    openssl            pkgs/main/win-64::openssl-1.1.1b-he774522_1
+    pip                pkgs/main/win-64::pip-19.0.3-py37_0
+    python             pkgs/main/win-64::python-3.7.3-h8c8aaf0_0
+    pytz               pkgs/main/win-64::pytz-2018.9-py37_0
+    setuptools         pkgs/main/win-64::setuptools-40.8.0-py37_0
+    sqlite             pkgs/main/win-64::sqlite-3.27.2-he774522_0
+    vc                 pkgs/main/win-64::vc-14.1-h0510ff6_4
+    vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.15.26706-h3a45250_0
+    wheel              pkgs/main/win-64::wheel-0.33.1-py37_0
+    wincertstore       pkgs/main/win-64::wincertstore-0.2-py37_0
+  
+  
+  Proceed ([y]/n)? y
+  
+  
+  Downloading and Extracting Packages
+  django-2.1.7         | 4.4 MB    | ################################################################################################################### | 100%
+  certifi-2019.3.9     | 155 KB    | ################################################################################################################### | 100%
+  openssl-1.1.1b       | 5.7 MB    | ################################################################################################################### | 100%
+  ca-certificates-2019 | 158 KB    | ################################################################################################################### | 100%
+  python-3.7.3         | 17.8 MB   | ################################################################################################################### | 100%
+  sqlite-3.27.2        | 941 KB    | ################################################################################################################### | 100%
+  wheel-0.33.1         | 57 KB     | ################################################################################################################### | 100%
+  setuptools-40.8.0    | 663 KB    | ################################################################################################################### | 100%
+  pip-19.0.3           | 1.8 MB    | ################################################################################################################### | 100%
+  pytz-2018.9          | 264 KB    | ################################################################################################################### | 100%
+  Preparing transaction: done
+  Verifying transaction: done
+  Executing transaction: done
+  #
+  # To activate this environment, use
+  #
+  #     $ conda activate djangodev
+  #
+  # To deactivate an active environment, use
+  #
+  #     $ conda deactivate
+  
+  ```
+  
+  Lets take a look at a list of our virutal environments:
+  ```
+  λ conda info --envs
+  # conda environments:
+  #
+  base                  *  C:\\ProgramData\\Anaconda3
+  djangodev                C:\\Users\\stein\\.conda\\envs\\djangodev
+  ```
+  
+  - Create a project with:
+  	`
+  	django-admin startproject mysite
+  	`
+  - Start a development server written in Python (lightweight):
+  	`
+  	python manage.py runserver IP-ADDRESS:PORT
+  	`
+  - In Django, apps can live anywhere on your Python path
+  	`
+  	python manage.py startapp myapp
+  	`
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
