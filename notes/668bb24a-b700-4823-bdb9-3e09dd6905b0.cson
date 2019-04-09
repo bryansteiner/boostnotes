@@ -1,5 +1,5 @@
 createdAt: "2019-04-05T04:52:52.057Z"
-updatedAt: "2019-04-07T02:19:05.999Z"
+updatedAt: "2019-04-08T02:17:22.684Z"
 type: "MARKDOWN_NOTE"
 folder: "9920aa4bef7588333d0b"
 title: "Django Setup"
@@ -107,6 +107,15 @@ content: '''
   	`
   	python manage.py startapp myapp
   	`
+  
+  ### Model (Database) Changes
+  1. Change your models (in `models.py`)
+  2. Run `python manage.py makemigrations` to create migrations for those changes
+  3. Run `python manage.py check` to check for any problems in your project without making migrations or touching db
+  4. Run `python manage.py migrate` to apply those changes to the database
+  
+  ### Run an Interactive Shell
+  Run `python manage.py shell` which is better than just running `python` because `manage.py` sets the `DJANGO_SETTINGS_MODULE` environment variable, which gives Django the Python import path to your `mysite/settings.py` file
   
   
 '''
